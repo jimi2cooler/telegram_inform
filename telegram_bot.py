@@ -114,8 +114,8 @@ def crawling_bok_blog() : # 한국은행 Blog
 
 def send_message(new_df) :
 
-    bot = tel.Bot(token="5850608542:AAEkv9PvPU7LhwrDf304pS_Qi9ycRYQBMp0")
-    chat_id = 190447239
+    bot = tel.Bot(token="***********")
+    chat_id = ***********
     new_df = new_df.reset_index()
 
     for k, v in new_df.iterrows() :
